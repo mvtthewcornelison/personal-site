@@ -80,6 +80,7 @@ PORTFOLIO SECTION
 .portfolio-container {
     display: flex;
     flex-direction: column;
+    background-color: lightgray;
 }
 
 .tindog {
@@ -175,8 +176,8 @@ PORTFOLIO SECTION
     }
 
     .tindog > img {
-        height: 400px;
-        width: 500px;
+        height: 300px;
+        width: 300px;
     }
 
     .tin-text {
@@ -191,8 +192,8 @@ PORTFOLIO SECTION
     }
 
     .devcom > img {
-        height: 400px;
-        width: 500px;
+        height: 300px;
+        width: 300px;
         order: -1;
     }
 
@@ -208,8 +209,8 @@ PORTFOLIO SECTION
     }
 
     .mondrian > img {
-        height: 400px;
-        width: 500px;
+        height: 300px;
+        width: 300px;
     }
 
     .mon-text {
@@ -300,14 +301,23 @@ ABOUT ME SECTION
     .about-body {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 0px 300px;
+        padding: 0px 50px;
     }
 
     .chess {
         padding-bottom: 30px;
+    }
+
+    .chess > img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .surfing > img {
+        height: 300px;
+        width: 300px;
     }
 }
 
@@ -337,4 +347,3 @@ FOOTER SECTION
 .contact-logos {
     grid-area: 1 / 2 / 1 / 3;
 }
-
